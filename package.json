@@ -1,0 +1,32 @@
+{
+  "name": "swagger-ui-nodejs",
+  "version": "1.0.0",
+  "description": "using swagger ui with nodejs ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --exec babel-node --presets babel-preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedbrahimi/swagger-nodejs.git"
+  },
+  "author": "Mophamed Aissa Brahimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedbrahimi/swagger-nodejs/issues"
+  },
+  "homepage": "https://github.com/mohamedbrahimi/swagger-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.2"
+  }
+}
